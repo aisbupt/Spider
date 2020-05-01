@@ -120,7 +120,7 @@ if __name__ == '__main__':
     #url = 'https://www.baidu.com/s?'
     #params = {'wd': '星系图片'}
     #https://www.ivsky.com/search.php?
-    baseUrl = 'https://www.7160.com/'
+    baseUrl = 'https://www.ivsky.com/search.php?'
     page_num = np.linspace(60000,65000,num=50,dtype='str')
     page_num = np.array(page_num).tostring()
     #print(page_num)
